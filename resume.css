@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  padding-top: 70px;
+  background-color: rgb(212, 244, 255);
+  font-family: sans-serif;
+  display: flex;
+}
+p{
+  text-indent: 40px;
+}
+.header{
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  justify-content: end;
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(0, 61, 86);
+  margin: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  max-width: 100%;
+}
+.home{
+  margin-left: 20px;
+  font-weight: bold;
+  color:  rgb(212, 244, 255);
+}
+.home:hover{
+  cursor: pointer;
+
+}
+
+.about{
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(212, 244, 255);
+
+}
+.about:hover{
+  cursor: pointer;
+  text-decoration: underline rgb(212, 244, 255);
+}
+.contact{
+  margin-left: 20px;
+  font-weight: bold;
+  color:  rgb(212, 244, 255);
+  text-decoration: underline;
+}
+.contact:hover{
+  cursor: pointer;
+  text-decoration: underline  rgb(212, 244, 255);
+}
+.project{
+  margin-left: 20px;
+  font-weight: bold;
+  color:  rgb(212, 244, 255);
+  text-decoration: underline;
+}
+.project:hover{
+  cursor: pointer;
+  text-decoration: underline  rgb(212, 244, 255);
+}
+.profile{
+  margin-right: 40px;
+  margin-left: 20px;
+  font-weight: bold;
+  color:  rgb(212, 244, 255);
+  text-decoration: underline;
+}
+.profile:hover{
+  cursor: pointer;
+  text-decoration: underline rgb(212, 244, 255);
+}
+
+.itsper:hover{
+  cursor: pointer;
+  text-decoration:  rgb(212, 244, 255);
+}
+.perj{
+  width: 40px;
+  border-radius: 50px;
+  align-content: left;
+  margin-left: 20px;
+}
+.perj:hover{
+  cursor: pointer;
+}
+.textp{
+
+  padding: 20px;
+}
+.hard{
+  padding: 20px;
+
+  
+}
+.skills-container{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+.myproglang{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.myproglang:hover{
+  cursor: pointer;
+}
+.langpic{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 414) {
+  .header{
+    width: 90%;
+    height: 90%;
+  }
+
+}

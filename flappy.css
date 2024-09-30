@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: url(Forpic/bagfla.png);
+}
+
+h1 {
+  color: #fff;
+}
+
+.game-container {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+
+canvas {
+  border: 5px solid #000000;
+}

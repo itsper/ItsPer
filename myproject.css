@@ -1,0 +1,54 @@
+body{
+  font-family: sans-serif;
+  background-color: bisque;
+
+
+}
+.calbtn{
+  width: 140px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  margin: 10px; 
+}
+.calbtn:hover{
+  cursor: pointer;
+}
+.javaproj{
+  width: 140px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  margin: 10px;
+}
+.javaproj:hover{
+  cursor: pointer;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.back{
+  width: 140px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0, 96, 43);
+  font-weight: bold;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .btn-container{
+    height: 100%;
+    width: 100%;
+
+  }
+  
+}
