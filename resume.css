@@ -9,7 +9,7 @@ p{
   text-indent: 40px;
 }
 .header{
-  height: 50px;
+  height: 100px;
   border-style: solid;
   border-color: black;
   border-width: 2px;
@@ -29,6 +29,7 @@ p{
   margin-left: 20px;
   font-weight: bold;
   color:  rgb(212, 244, 255);
+  font-size: 20px;
 }
 .home:hover{
   cursor: pointer;
@@ -39,6 +40,7 @@ p{
   margin-left: 20px;
   font-weight: bold;
   color: rgb(212, 244, 255);
+  font-size: 20px;
 
 }
 .about:hover{
@@ -50,6 +52,7 @@ p{
   font-weight: bold;
   color:  rgb(212, 244, 255);
   text-decoration: underline;
+  font-size: 20px;
 }
 .contact:hover{
   cursor: pointer;
@@ -60,6 +63,7 @@ p{
   font-weight: bold;
   color:  rgb(212, 244, 255);
   text-decoration: underline;
+  font-size: 20px;
 }
 .project:hover{
   cursor: pointer;
@@ -71,6 +75,7 @@ p{
   font-weight: bold;
   color:  rgb(212, 244, 255);
   text-decoration: underline;
+  font-size: 20px;
 }
 .profile:hover{
   cursor: pointer;
@@ -82,7 +87,7 @@ p{
   text-decoration:  rgb(212, 244, 255);
 }
 .perj{
-  width: 40px;
+  width: 50px;
   border-radius: 50px;
   align-content: left;
   margin-left: 20px;
